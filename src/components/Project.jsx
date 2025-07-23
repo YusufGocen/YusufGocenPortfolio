@@ -39,7 +39,7 @@ export const Project = () => {
           variants={fadeInUp}
           whileHover={{ y: -10, transition: { duration: 0.2 } }}
           className='project-card'>
-            <div className='project-image' style={{backgroundImage:"url('/NöbetciEczane.png')"}}  whileHover={{ scale: 1.05, transition: { duration: 0.2 } }}/>
+            <div className='project-image' style={{backgroundImage:`url(${import.meta.env.BASE_URL}NöbetciEczane.png)`}}  whileHover={{ scale: 1.05, transition: { duration: 0.2 } }}/>
               <h3>Nöbetçi Eczaneler</h3>
               <p>
                  I Developed a cross-platform mobile application using React Native that displays real-time pharmacy availability in Turkey. I implemented Axios for data fetching and designed a clean, responsive UI compatible with both iOS and Android devices.              </p>
@@ -58,7 +58,7 @@ export const Project = () => {
           variants={fadeInUp}
           whileHover={{ y: -10, transition: { duration: 0.2 } }}
           className='project-card'>
-            <div className='project-image' style={{backgroundImage:"url('/TwitterClone.png')"}}  whileHover={{ scale: 1.05, transition: { duration: 0.2 } }}/>
+            <div className='project-image' style={{backgroundImage:`url(${import.meta.env.BASE_URL}TwitterClone.png)`}}  whileHover={{ scale: 1.05, transition: { duration: 0.2 } }}/>
               <h3>React Twitter Clone</h3>
               <p>
                 Developed a responsive Twitter Clone using React, Redux for state management, React Router for navigation, and Tailwind CSS for styling. 
