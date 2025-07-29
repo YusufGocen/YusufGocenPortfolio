@@ -18,9 +18,3 @@ Currently, two official plugins are available:
 <img width="2541" height="812" alt="Ekran görüntüsü 2025-07-29 132711" src="https://github.com/user-attachments/assets/f1755999-778a-4f65-9522-6d0d5006fb05" />
 
 
-
-
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
