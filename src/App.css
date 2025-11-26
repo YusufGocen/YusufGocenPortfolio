@@ -81,6 +81,7 @@ a:link, a:visited {
     height: 100vh;
     width: 100%;
     vertical-align: middle;
+    overflow: hidden;
 }
 .container p{
     font-size: 5vmin;
@@ -88,7 +89,8 @@ a:link, a:visited {
 }
 .container h1{
     color: #e2e8f0;
-    font-size: 8vmin;
+    font-weight: bold;
+    font-size: 12vmin;
 }
 .links{
     font-size: 1.5rem;
