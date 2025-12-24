@@ -1,5 +1,4 @@
 import React from 'react'
-import {motion} from "framer-motion"
 
 const fadeInUp = {
   initial: { opacity: 0, y: 20 },
