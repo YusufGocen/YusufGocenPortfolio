@@ -32,7 +32,7 @@ export const Home = () => {
           </div>  
         <div className='Code'>
           <SyntaxHighlighter language='typescript' style={vscDarkPlus} className='SyntaxCode' customStyle={{margin:0, padding:"2rem", height:"100%", borderRadius:"20px",  width: "100%",
-            maxWidth: "50rem",overflowX: "auto",backdropFilter:"blur(10px)",marginBottom:20 , background:"rgba(22, 22, 25, 0.85)"}}>
+            maxWidth: "55rem",overflowX: "auto",backdropFilter:"blur(10px)",marginBottom:20 , background:"rgba(22, 22, 25, 0.85)"}}>
             { `const AboutMe : DeveloperProfile={
     Name:"Yusuf Göçen",
     title: "Frontend / Mobile Developer",
@@ -41,12 +41,14 @@ export const Home = () => {
 education: {
     university: "İstanbul Aydın University",
     degree: "B.SC. Management Information Systems",
-    duration: "2022 - 2026 (Expected)",
+    duration: "2022 - 2026",
     courses: [
       "Algorithms and Programming",
       "Object-Oriented Programming",
       "Web Programming",
-      "Database Management Systems"
+      "Database Management Systems",
+      "System Analysıs And Design",
+      "AI And Machine learning"
     ],
    },
 experience: [
@@ -54,7 +56,7 @@ experience: [
     company: "Rast Mobile",
     role: "Software Developer Intern",
     location: "İstanbul",
-    duration: "Oct 2025 - Present"
+    duration: "Oct 2025 - Jan 2026 (4 Months)"
   },
  {  
     company: "Flo Group",
