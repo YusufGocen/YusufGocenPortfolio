@@ -72,8 +72,12 @@ experience: [
   }       
   ],
 stack: {
-  languages: ["JavaScript", "TypeScript", "Java", "Python" , "SQL"],
-  technologies: ["HTML","CSS(Tailwind, Bootstrap)","React.js","React Native","Next.js","Redux","Spring Boot","Git"]
+  Languages: ["JavaScript", "TypeScript", "Java", "Python", "SQL"],
+  Frontend: ["HTML", "CSS (Tailwind, Bootstrap)","React.js", "Next.js", "Redux", "React Router"],
+  Mobile: ["React Native"],
+  Backend: ["Spring Boot", "REST API"],
+  Testing: ["Jest"],
+  Tools: ["Git"]
   },`}
             
           </SyntaxHighlighter>
